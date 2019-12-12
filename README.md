@@ -10,7 +10,7 @@ Z370 based build using OpenCore to create a stable and fast workstation used for
 - **Graphics Card**: [ASRock Radeon VII 16GB](https://www.newegg.com/asrock-radeon-vii-16g/p/N82E16814930012)
 - **NVMe**: Samsung 970 EVO 1TB, ADATA SX8200Pro 1TB
 - **SSD**: Samsung EVO 860 2TB, Samsung EVO 850 1TB, Crucial MX500 (Windows)
-- **Power Suppply**: [Seasonic Prime 850 Titanium SSR-850TR 850W](https://smile.amazon.com/gp/product/B075M3R4YB)
+- **Power Supply**: [Seasonic Prime 850 Titanium SSR-850TR 850W](https://smile.amazon.com/gp/product/B075M3R4YB)
 - **Case**: [Fractal Design Define R6 USB-C Black Brushed](https://www.newegg.com/black-fractal-design-define-r6-atx-mid-tower/p/N82E16811352089)
 - **Cooler**: [Corsair H75 water cooler](https://smile.amazon.com/gp/product/B00FZHWFEW)
 - **Bluetooth**: [BCM94360CS2](https://smile.amazon.com/gp/product/B01L6YWGXW)
