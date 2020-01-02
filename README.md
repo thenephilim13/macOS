@@ -48,6 +48,24 @@ Follow the steps in the guides linked below for BIOS settings but if you're goin
 * USBInjectAll.kext
 * AGPMInjector.kext (Post Install)
 
+## Notes 
+
+### Compiling DSL to AML:
+
+1. Open the DSL file with MaciASL
+2. Click the Compile button 
+3. Check the output and make sure you have no errors
+4. File -> Save As: Make sure to select "ACPI Machine Language Binary" as the File Format
+5. Copy the binary .aml files to `EC/OC/ACPI` (not the .dsl source files)
+
+### Update config.plist
+
+Make sure to update the `PlatformInfo/Generic` section in the supplied `config.plist` from this repo with your own generated serial etc following the Vanilla Guide. 
+
+### Using XCode to add/edit data fields in plist
+
+Not super intuitive how to add hex data using XCode, for 0xabcdef enter the following verbatim: <abcdef>
+
 # Post Installation
 
 * Create AGPMInjector.kext https://github.com/Pavo-IM/AGPMInjector
