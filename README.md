@@ -16,10 +16,16 @@ Z370 based build using OpenCore to create a stable and fast workstation used for
 - **Bluetooth**: [BCM94360CS2](https://smile.amazon.com/gp/product/B01L6YWGXW)
 - **Bluetooth PCI-E adapter**: [WiFi + Bluetooth 4.0 Card to PCI-E x1 Adapter Card](https://smile.amazon.com/gp/product/B076KBBFV4)
 - **Other**: [Blackmagic Design DeckLink Mini Recorder 4K PCIe Capture Card](https://smile.amazon.com/gp/product/B01M126X2N)
+- **USB Audio**: [RME ADI-2 Pro fs](https://www.rme-audio.de/adi-2-pro-fs.html)
+- **USB Audio**: [Topping DX7s](https://www.amazon.com/Topping-Balanced-Headphone-Amplifier-2ES9038Q2M/dp/B07B4VFS21)
 
 ## Bluetooth
 
 Tried many dongles, none worked for me. Make sure you buy the right PCIe adapter card for the bluetooth card, the first one I bought was actually for the BCM94630CD which is NOT compatible with the BCM94360CS2.
+
+## Audio 
+
+I haven't tested the onboard audio much, so may have to play with the `layout-id` a bit yourself if it's not working 100%. 
 
 # Installation
 
@@ -64,7 +70,7 @@ Make sure to update the `PlatformInfo/Generic` section in the supplied `config.p
 
 ### Using XCode to add/edit data fields in plist
 
-Not super intuitive how to add hex data using XCode, for 0xabcdef enter the following verbatim: <abcdef>
+Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the following verbatim: `<abcdef>`
 
 # Post Installation
 
