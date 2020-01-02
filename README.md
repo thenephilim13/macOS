@@ -56,6 +56,14 @@ Follow the steps in the guides linked below for BIOS settings but if you're goin
 * USBInjectAll.kext
 * AGPMInjector.kext (Post Install)
 
+## Drivers
+
+* VBoxHfs.efi
+* VirtualSmc.efi
+* ApfsDriverLoader.efi
+* FwRuntimeServices.efi
+* UsbKbDxe.efi
+
 ## Notes 
 
 ### Compiling DSL to AML:
