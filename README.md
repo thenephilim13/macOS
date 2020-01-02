@@ -31,7 +31,7 @@ I haven't tested the onboard audio much, so may have to play with the `layout-id
 
 # Installation
 
-## BIOS
+## BIOS & RAM
 
 Follow the steps in the guides linked below for BIOS settings but if you're going with 4 DIMMS and/or 64GB, beware of using XMP. Through much trial and error with different sets of RAM and motherboards (Z370 & Z390), I've found that it's not stable, neither Crucial nor Corsair, even though rated for and containing XMP profiles for 3200mhz, if you're having any crashes or freezes, just set "Ai Tweaker" to Auto (which sets the RAM to 2400mhz). 
 
@@ -72,7 +72,7 @@ Make sure to update the `PlatformInfo/Generic` section in the supplied `config.p
 
 ### Using XCode to add/edit data fields in plist
 
-Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the following verbatim: `<abcdef>`
+Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the following verbatim (make sure the field type is set to `data`): `<abcdef>`
 
 # Post Installation
 
