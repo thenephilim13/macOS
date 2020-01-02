@@ -23,6 +23,8 @@ Z370 based build using OpenCore to create a stable and fast workstation used for
 
 Tried many dongles, none worked for me. Make sure you buy the right PCIe adapter card for the bluetooth card, the first one I bought was actually for the BCM94630CD which is NOT compatible with the BCM94360CS2.
 
+Alternative: [Fenvi T919](https://smile.amazon.com/gp/product/B07VCCZS54) no need to buy adapter and card separately, this works great OOB. 
+
 ## Audio 
 
 I haven't tested the onboard audio much, so may have to play with the `layout-id` a bit yourself if it's not working 100%. 
