@@ -66,6 +66,30 @@ Follow the steps in the guides linked below for BIOS settings but if you're goin
 
 ## Notes 
 
+### PlatformInfo variables
+
+The variables **MLB, ROM, SystemSerialNumber, SystemUUID** have been censored in the config.plist because of security reasons. You can generate these variables by yourself and replace them in `config.plist` The following commands have been copied from the [Clover Vanilla Guide, RtVariables section](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake#rtvariables-and-smbios) with minor modifications.
+
+**ROM**: Use the value `UseMacAddr0` which just utilizes our onboard Mac address - this should be unique enough to not conflict with any others.
+
+**SystemSerialNumber, MLB**: Use the [macserial](https://github.com/acidanthera/macserial) application to fetch keys for our target (for this config, Mac19,1):
+
+```
+macserial -a | grep -i iMac19,1
+```
+
+which gives us such output:
+```
+iMac19,1 | C02T8SZNH7JY | C02707101J9H69F1F
+iMac19,1 | C02VXBYDH7JY | C02753100GUH69FCB
+iMac19,1 | C02T7RY6H7JY | C02706310GUH69FA8
+iMac19,1 | C02VD07ZH7JY | C02737301J9H69FCB
+...
+```
+The order is `Product | SystemSerialNumber | MLB (Board Serial)`. Choose any row and apply the values appropriately.
+
+**SystemUUID**: A random UUID. Use `uuidgen` in your terminal. Alternatively, use an [online service](https://www.uuidgenerator.net/).
+
 ### Compiling DSL to AML:
 
 1. Open the DSL file with MaciASL
