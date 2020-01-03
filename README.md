@@ -43,19 +43,6 @@ Follow the steps in the guides linked below for BIOS settings but if you're goin
 2. Create Vanilla Installer: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/
    1. Ignore the Clover sections, we're using OpenCore
 
-## Kexts
-
-* AppleMCEReporterDisabler.kext
-* Lilu.kext
-* WhateverGreen.kext
-* VirtualSMC.kext
-* SMCProcessor.kext
-* SMCSuperIO.kext
-* AppleALC.kext
-* IntelMausiEthernet.kext
-* USBInjectAll.kext
-* AGPMInjector.kext (Post Install)
-
 ## Notes 
 
 ### Compiling DSL to AML:
@@ -73,6 +60,19 @@ Make sure to update the `PlatformInfo/Generic` section in the supplied `config.p
 ### Using XCode to add/edit data fields in plist
 
 Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the following verbatim (make sure the field type is set to `data`): `<abcdef>`
+
+## Kexts
+
+* AppleMCEReporterDisabler.kext
+* Lilu.kext
+* WhateverGreen.kext
+* VirtualSMC.kext
+* SMCProcessor.kext
+* SMCSuperIO.kext
+* AppleALC.kext
+* IntelMausiEthernet.kext
+* USBInjectAll.kext (Post Install)
+* AGPMInjector.kext (Post Install)
 
 # Post Installation
 
