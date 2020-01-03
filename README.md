@@ -55,7 +55,7 @@ Follow the steps in the guides linked below for BIOS settings but if you're goin
 
 ### Update config.plist
 
-Make sure to update the `PlatformInfo/Generic` section in the supplied `config.plist` from this repo with your own generated serial etc following the Vanilla Guide. 
+Make sure to update the `PlatformInfo/Generic` section in the supplied `config.plist` from this repo with your own generated serial etc following the Vanilla Guide, see [Platform Info section](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/config.plist/coffee-lake#coffee-lake)
 
 ### Using XCode to add/edit data fields in plist
 
