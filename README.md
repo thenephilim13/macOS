@@ -37,7 +37,6 @@ Follow the steps in the guides linked below for BIOS settings but if you're goin
 
 ## Kexts
 
-* AppleMCEReporterDisabler.kext
 * Lilu.kext
 * WhateverGreen.kext
 * VirtualSMC.kext
