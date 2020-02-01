@@ -8,7 +8,7 @@ Z390 based build using OpenCore to create a stable and fast backup workstation a
 - **CPU**: [Intel i7-8700k](https://smile.amazon.com/gp/product/B07598VZR8/)
 - **RAM**: [Corsair Vengeance LPX 3200 MHz DDR4 64GB (16GBx4)](https://smile.amazon.com/gp/product/B07CZ6Q7VT) 
 - **Graphics Card**: [Sapphire Radeon Vega 64](https://smile.amazon.com/Saphire-Radeon-Rx-Vega-AMD/dp/B074SR3NBX/)
-- **NVMe**: Samsung 960 EVO 512GB
+- **NVMe**: [Samsung 960 EVO 512GB](https://smile.amazon.com/gp/product/B01M20VBU7)
 - **Power Supply**: [Seasonic 650W 80 Plus Titanium](https://smile.amazon.com/gp/product/B01HXYRJYK)
 - **Case**: [Antec P280](https://smile.amazon.com/gp/product/B005X3E5BO)
 - **Cooler**: [Corsair H75 water cooler](https://smile.amazon.com/gp/product/B00FZHWFEW)
