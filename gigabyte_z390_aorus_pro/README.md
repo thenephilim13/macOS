@@ -26,7 +26,7 @@ I haven't tested the onboard audio much, so may have to play with the `layout-id
 
 ## NVRAM 
 
-Native NVRAM support is now finally possible for the Z390. 
+Native NVRAM support is now [finally possible for the Z390.](https://www.reddit.com/r/hackintosh/comments/erd2th/nvram_for_all_300_series_users_rejoice/) 
 
 # Installation
 
