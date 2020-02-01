@@ -18,7 +18,7 @@ Z390 based build using OpenCore to create a stable and fast backup workstation a
 
 ## Bluetooth
 
-Works OOB will full support. 
+Works OOB will full support. I've used both the "Blue" with 2 antennas and the more expensive "Blue Black" version with 4 antennas.
 
 ## Audio 
 
