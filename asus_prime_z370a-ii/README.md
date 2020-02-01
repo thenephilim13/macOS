@@ -63,7 +63,7 @@ Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the fo
 
 ## Final OpenCore Layout
 
-![Asus Z370A-II OpenCore Layout](Asus Z370A-II OpenCore Layout.png)
+![Asus Z370A-II OpenCore Layout](https://github.com/thenephilim13/macOS/raw/master/asus_prime_z370a-ii/Asus%20Z370A-II%20OpenCore%20Layout.png)
 
 # Post Installation
 

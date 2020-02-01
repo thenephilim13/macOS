@@ -62,7 +62,7 @@ Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the fo
 
 ## OpenCore Layout
 
-![Gigabyte Aorus Z390 Pro OpenCore Layout](OpenCore Layout.png)
+![Gigabyte Aorus Z390 Pro OpenCore Layout](https://github.com/thenephilim13/macOS/raw/master/gigabyte_z390_aorus_pro/OpenCore%20Layout.png)
 
 # Post Installation
 
