@@ -2,6 +2,8 @@
 
 Z390 based build using OpenCore to create a stable and fast backup workstation and testbed. 
 
+**Note:** To simplify installation I've disabled the iGPU in the my BIOS and used an `iMacPro1,1` SMBios to be able to just use `slide=0` boot arg. I'd like to spend more time on this in the future and move to a `iMac19,x` SMBios as I'm not 100% macOS can use the dGPU for everything that it can use the iGPU for (such as h264/h265 encoding, decoding for both works fine eg watching 1080p/4k movies with VLC).
+
 # Hardware
 
 - **Motherboard**: [Gigabyte Aorus Z390 Pro](https://smile.amazon.com/GIGABYTE-Z390-AORUS-PRO-Motherboard/dp/B07HRZRBRJ/)
