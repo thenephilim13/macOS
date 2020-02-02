@@ -78,7 +78,7 @@ Not super intuitive how to add hex data using XCode, for `0xabcdef` enter the fo
 # Post Installation
 
 * Create AGPMInjector.kext https://github.com/Pavo-IM/AGPMInjector
-* Map USB ports: https://github.com/thenephilim13/macOS/tree/master/asus_prime_z370a-ii/usb
+* Map USB ports: https://github.com/thenephilim13/macOS/tree/master/gigabyte_z390_aorus_pro/usb
 
 ## Creds
 
