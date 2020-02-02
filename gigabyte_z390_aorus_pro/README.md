@@ -2,8 +2,6 @@
 
 Z390 based build using OpenCore to create a stable and fast backup workstation and testbed. 
 
-**Note:** To simplify installation I've disabled the iGPU in the my BIOS and used an `iMacPro1,1` SMBios to be able to just use `slide=0` boot arg. I'd like to spend more time on this in the future and move to a `iMac19,x` SMBios as I'm not 100% macOS can use the dGPU for everything that it can use the iGPU for (such as h264/h265 encoding, decoding using the Vega64 for both works fine eg watching 1080p/4k movies with VLC).
-
 # Hardware
 
 - **Motherboard**: [Gigabyte Aorus Z390 Pro](https://smile.amazon.com/GIGABYTE-Z390-AORUS-PRO-Motherboard/dp/B07HRZRBRJ/)
@@ -32,9 +30,20 @@ Native NVRAM support is now [finally possible for the Z390.](https://www.reddit.
 
 # Installation
 
-## BIOS & RAM
+## BIOS 
+
+### RAM clock speed & XMP
 
 Follow the steps in the guides linked below for BIOS settings but if you're going with 4 DIMMS and/or 64GB, beware of using XMP. Through much trial and error with different sets of RAM and motherboards (Z370 & Z390), I've found that it's not stable, neither Crucial nor Corsair, even though rated for and containing XMP profiles for 3200mhz, if you're having any crashes or freezes, just set "Ai Tweaker" to Auto (which sets the RAM to 2400mhz). 
+
+### MSR CFG lock
+
+The BIOS is CFG locked (MSR) and there's no BIOS option to disable it. The system **cannot** boot with OpenCore with CFG lock enabled, the best way is to download the BIOS from Gigabyte's site and then patch it as per: https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/msr-lock
+
+### iGPU 
+
+To simplify installation I've disabled the iGPU in the my BIOS and used an `iMacPro1,1` SMBios to be able to just use `slide=0` boot arg. I'd like to spend more time on this in the future and move to a `iMac19,x` SMBios as I'm not 100% macOS can use the dGPU for everything that it can use the iGPU for (such as h264/h265 encoding, decoding using the Vega64 for both works fine eg watching 1080p/4k movies with VLC).
+See more here: https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/kalsr-fix
 
 ## Steps
 
