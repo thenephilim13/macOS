@@ -48,7 +48,7 @@ Use System Information app (About This Mac), in the USB section click on the USB
 ![Z390 Port Map](portmap.png)
 
 ## Defining your Ports
-Download https://raw.githubusercontent.com/RehabMan/OS-X-USB-Inject-All/master/SSDT-UIAC-ALL.dsl and find the section relevant to you, in this case ""8086_a2af", Package()" and delete the other unneeded sections. Remove or uncomment the ports in this section that you do not want to use to bring the total down to 15 or fewer ports. Modify the USB connector value as appropriate:
+Download https://raw.githubusercontent.com/RehabMan/OS-X-USB-Inject-All/master/SSDT-UIAC-ALL.dsl and find the section relevant to you, in this case ""8086_a36d", Package()" and delete the other unneeded sections. Remove or uncomment the ports in this section that you do not want to use to bring the total down to 15 or fewer ports. Modify the USB connector value as appropriate:
 
 * 3: USB 2.0 or USB 3.0 port
 * 9: USB-C port (same OS port name for USB 3 and USB 2)
