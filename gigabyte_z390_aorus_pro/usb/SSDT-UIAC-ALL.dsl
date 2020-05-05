@@ -29,6 +29,16 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                 "port-count", Buffer() { 26, 0, 0, 0 },
                 "ports", Package()
                 {
+                    "HS07", Package()
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 7, 0, 0, 0 },
+                    },
+                    "HS08", Package()
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 8, 0, 0, 0 },
+                    },
                     "HS09", Package()
                     {
                         "UsbConnector", 3,
