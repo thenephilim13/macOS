@@ -1,4 +1,14 @@
+## Gigabyte Aorus Z390 Pro with i9-9900k and Radeon VII with OpenCore
+
+[Overview & Installation](gigabyte_z390_aorus_pro/)
+
+## Asus Prime Z370A-II with i7-8700k and Radeon Vega64 with OpenCore
+
+[Overview & Installation](asus_prime_z370a-ii/)
+
 ## Latest Update
+
+### 4 May 2020
 
 * Swapped motherboards between the two systems, main desktop is now using the Z390 (unsure how much I'll maintain the Z370 going forward)
 * Gigabyte Aorus Z390 Pro only:
@@ -11,11 +21,4 @@
 
 **TODO**: Enable iGPU and see if slide=0 still holds (more hope now that we have `RebuildAppleMemoryMap` quirk)
 
-## Gigabyte Aorus Z390 Pro with i9-9900k and Radeon VII with OpenCore
-
-[Overview & Installation](gigabyte_z390_aorus_pro/)
-
-## Asus Prime Z370A-II with i7-8700k and Radeon Vega64 with OpenCore
-
-[Overview & Installation](asus_prime_z370a-ii/)
 
